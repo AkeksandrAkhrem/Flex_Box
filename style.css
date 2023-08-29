@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* background-color: rgb(142, 175, 175); */
+    padding-bottom: 500px;
+}
+
+.container{
+    max-width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightgray; /*заменить на фото потом*/
+    background: url('pictyres/bg-fixed.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.header__title_name, .header__title_naming-second{
+    color: white;
+}
+
+.header__image{
+    max-width: 252px;
+    height: 250px;
+    background: url('pictyres/header-img.jpg') center/contain no-repeat;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+.midle__title{
+    margin: 30px;
+}
+
+.midle__article{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.midle__articl_image{
+    width: 300px;
+    height: 300px;
+    background: url('pictyres/desc-img.jpg') center/cover no-repeat;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    box-shadow: -20px -18px 5px 5px #3724c06b;;
+}
+
+.midle__articl_description{
+    /* border: 2px solid black; */
+    text-align: left;
+    width: 370px;
+    text-shadow: -5px -5px 5px #263e68;
+}
+
+.midle__title, h2, p, .photos__title{
+    color: white;
+}
+
+.photos__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+
+.photos__block_head{
+    width: 350px;
+    height: 150px;
+    /* border: 2px solid green; */
+    border-radius: 100px;
+}
+
+.photos__block_head_one{
+    background: url('pictyres/1.jpeg') center/cover no-repeat;
+    box-shadow: inset 0px 0px 20px 8px #3724c0;
+}
+
+.photos__block_head_two{
+    background: url('pictyres/2.jpeg') center/cover no-repeat;
+    box-shadow: inset 0px 0px 20px 8px #3724c0;
+}
+
+.photos__block_head_three{
+    background: url('pictyres/3.jpeg') center/cover no-repeat;
+    box-shadow: inset 0px 0px 20px 8px #3724c0;
+}
+
+.photos__block_head_for{
+    background: url('pictyres/4.jpeg') center/cover no-repeat;
+    box-shadow: 0px 0px 20px 9px red;
+}
+
+.photos__block_head_five{
+    background: url('pictyres/5.jpeg') center/cover no-repeat;
+    box-shadow: 0px 0px 20px 9px red;
+}
+
+.photos__block_head_six{
+    background: url('pictyres/6.jpeg') center/cover no-repeat;
+    box-shadow: 0px 0px 20px 9px red;
+}

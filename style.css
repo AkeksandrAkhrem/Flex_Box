@@ -6,15 +6,20 @@ body{
     margin: 0;
     /* background-color: rgb(142, 175, 175); */
     padding-bottom: 500px;
+    background: url('pictyres/3.jpeg') center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 .container{
     max-width: 1200px;
-    min-height: 1200px;
+    min-height: 1375px;
+    width: fit-content;
     margin: 0 auto;
     text-align: center;
     background-color: lightgray; /*заменить на фото потом*/
-    background: url('pictyres/bg-fixed.jpg') center/cover no-repeat;
+    background:
+    linear-gradient(rgba(255, 0, 0, 0.727), rgba(0, 0, 255, 0.7)),
+    url('pictyres/bg-fixed.jpg') center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -106,4 +111,57 @@ body{
 .photos__block_head_six{
     background: url('pictyres/6.jpeg') center/cover no-repeat;
     box-shadow: 0px 0px 20px 9px red;
+}
+
+
+.section__form{
+    margin: 30px 0 30px;
+}
+
+.form{
+    width: 500px;
+    margin: 0 auto;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 15px;
+    box-shadow: 0px 0px 20px 20px rgb(56 151 56 / 36%);
+}
+
+.form__label__size{
+    font-size: 30px;
+    text-align: left;
+    text-shadow: 4px 6px 2px rgb(142 175 175 / 31%);
+}
+
+.form__input-name{
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form__submit{
+    background-color: rgb(56, 151, 56);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgb(56 151 56 / 64%);
+}
+
+.form__reset{
+    background-color: rgb(255, 164, 72);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgb(255 164 72 / 35%);
+}
+
+.form__submit:hover,
+.form__reset:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.form__input-name:focus{
+    outline: 5px ridge red;
 }

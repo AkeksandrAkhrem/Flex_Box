@@ -1,55 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>HW5_FlexBox_Bem</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="root.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HW5-6-7_FlexBox_Bem</title>
+  </head>
+  <body>
     <div class="container">
+      <header class="header">
+        <div class="header__title" id="header__href">
+          <h1 class="header__title_name">Naming</h1>
+          <h3 class="header__title_naming-second">Under Naming</h3>
+          <div class="header__image"></div>
+        </div>
+      </header>
 
-        <header class="header">
-            <div class="header__title">
-                <h1 class="header__title_name">Naming</h1>
-                <h3 class="header__title_naming-second">Under Naming</h3>
-                <div class="header__image"></div>
-            </div>
-        </header>
+      <section class="midle">
+        <h1 class="midle__title">Something Sometimes</h1>
+        <div class="midle__article">
+          <div class="midle__articl_image"></div>
+          <div class="midle__articl_description">
+            <h2>Description</h2>
+            <p>
+              Далеко-далеко за словесными горами в стране гласных и согласных
+              живут рыбные тексты. Образ коварных грустный всеми, бросил вопроса
+              путь ipsum составитель своего, последний великий ее свой,
+              буквоград раз вопрос. Точках, злых возвращайся.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section class="midle">
-            <h1 class="midle__title">Something Sometimes</h1>
-            <div class="midle__article">
-                <div class="midle__articl_image"></div>
-                <div class="midle__articl_description">
-                    <h2>Description</h2>
-                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Образ коварных грустный всеми, бросил вопроса путь ipsum составитель своего, последний великий ее свой, буквоград раз вопрос. Точках, злых возвращайся.
-                    </p>
-                </div>
-            </div>
-        </section>
+      <section class="photos">
+        <h1 class="photos__title">Something Sometimes Second</h1>
+        <div class="photos__block">
+          <div class="photos__block_head photos__block_head_one"></div>
+          <div class="photos__block_head photos__block_head_two"></div>
+          <div class="photos__block_head photos__block_head_three"></div>
+          <div class="photos__block_head photos__block_head_for"></div>
+          <div class="photos__block_head photos__block_head_five"></div>
+          <div class="photos__block_head photos__block_head_six"></div>
+        </div>
+      </section>
 
-        <section class="photos">
-            <h1 class="photos__title">Something Sometimes Second</h1>
-            <div class="photos__block">
-                <div class="photos__block_head photos__block_head_one "></div>
-                <div class="photos__block_head photos__block_head_two"></div>
-                <div class="photos__block_head photos__block_head_three"></div>
-                <div class="photos__block_head photos__block_head_for"></div>
-                <div class="photos__block_head photos__block_head_five"></div>
-                <div class="photos__block_head photos__block_head_six"></div>
-            </div>
-        </section>
-        
-        <section class="section__form">
-            <form action="mailto:alex07@mail.ru" method="post" target="_blank" class="form">
-                <label for="input-name" class="form__label__size">Your name</label>
-                <input type="text" name="Your name" placeholder="enter yor name" class="form__input-name">
-                
-                <input type="submit" value="Отправить" class="form__submit">
-                <input type="reset" value="Очистить" class="form__reset">
-            </form>
-        </section>
+      <section class="section__form">
+        <form
+          action="mailto:alex07@mail.ru"
+          method="post"
+          target="_blank"
+          class="form"
+        >
+          <label for="input-name" class="form__label__size">Your name</label>
+          <input
+            type="text"
+            name="Your name"
+            placeholder="enter yor name"
+            class="form__input-name"
+            required
+          />
+
+          <input type="submit" value="Отправить" class="form__submit" />
+          <input type="reset" value="Очистить" class="form__reset" />
+        </form>
+      </section>
     </div>
-</body>
+
+    <div class="position__block">
+      <div class="position__block_full position_one"></div>
+      <div class="position__block_full position_two"></div>
+      <div class="position__block_full position_three"></div>
+
+      <div class="position__block_full position_for"></div>
+      <div class="position__block_full position_five"></div>
+      <div class="position__block_full position_six"></div>
+
+      <div class="position__block_full position_seven"></div>
+      <div class="position__block_full position_eight"></div>
+      <div class="position__block_full position_nine"></div>
+    </div>
+
+    <div class="block__text">
+      <p class="paragrapf_1">
+        Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit.
+        Quam, <span>accusantium</span> doloribus? Vitae voluptatem unde ipsam
+        velit incidunt laboriosam <span>repellendus</span> quas.
+        <a href="https://ya.ru/" target="_blank" class="linka">яндекс</a>
+      </p>
+
+      <p class="paragrapf_2">
+        Далеко-далеко <span>за</span> словесными горами, в стране гласных и
+        согласных живут рыбные тексты. Ведущими <span>вскоре</span> не дорогу
+        злых букв одна путь даль <span>даже</span>.
+      </p>
+
+      <p class="paragrapf_3">
+        <span>Что-то</span> нужно сюда написать что бы было больше текста и
+        какого-то понятно для <span>отличия</span> что бы не лепить одинаковый
+        лорем везде и <span>точка</span>.
+      </p>
+    </div>
+
+    <div class="block__come-back">
+      <a href="#header__href" class="smooth-scroll">Верх в начало</a>
+    </div>
+  </body>
 </html>
